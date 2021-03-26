@@ -29,7 +29,8 @@ def push(stack_list):
 
 def pop(stack_list):
     
-    stack_list.pop(len(stack_list)-1)
+    # stack_list.pop(len(stack_list)-1)
+    del stack_list[-1]
 
 def show_stack_list(stack_list):
     print("\t",stack_list)
